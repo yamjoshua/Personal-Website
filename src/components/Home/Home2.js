@@ -62,8 +62,8 @@ function Home2() {
               of what I've taken!
             </p>
           </Col>
-          <Col md={4} style={{ paddingLeft: 80 }} className="myAvtar">
-            <Tilt>
+          <Col md={4} style={{paddingLeft: 80 }} className="myAvtar">
+            <Tilt gyroscope={true} tiltMaxAngleX={20} tiltMaxAngleY={20}>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
