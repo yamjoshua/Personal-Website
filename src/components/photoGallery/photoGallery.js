@@ -114,6 +114,26 @@ const Gallery = () => {
     {
       id: 21,
       imgSrc: photo21,
+    },
+    {
+      id: 22,
+      imgSrc: photo21,
+    },
+    {
+      id: 23,
+      imgSrc: photo21,
+    },
+    {
+      id: 24,
+      imgSrc: photo21,
+    },
+    {
+      id: 25,
+      imgSrc: photo21,
+    },
+    {
+      id: 26,
+      imgSrc: photo21,
     }
   ]
 
