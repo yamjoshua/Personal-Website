@@ -25,6 +25,12 @@ import photo18 from "../../Assets/Photos/18.jpg";
 import photo19 from "../../Assets/Photos/19.jpg";
 import photo20 from "../../Assets/Photos/20.jpg";
 import photo21 from "../../Assets/Photos/21.jpg";
+import photo22 from "../../Assets/Photos/22.jpg";
+import photo23 from "../../Assets/Photos/23.jpg";
+import photo24 from "../../Assets/Photos/24.jpg";
+import photo25 from "../../Assets/Photos/25.jpg";
+import photo26 from "../../Assets/Photos/26.jpg";
+
 
 
 var index = 0;
@@ -117,23 +123,23 @@ const Gallery = () => {
     },
     {
       id: 22,
-      imgSrc: photo21,
+      imgSrc: photo22,
     },
     {
       id: 23,
-      imgSrc: photo21,
+      imgSrc: photo23,
     },
     {
       id: 24,
-      imgSrc: photo21,
+      imgSrc: photo24,
     },
     {
       id: 25,
-      imgSrc: photo21,
+      imgSrc: photo25,
     },
     {
       id: 26,
-      imgSrc: photo21,
+      imgSrc: photo26,
     }
   ]
 
