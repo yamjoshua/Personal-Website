@@ -548,9 +548,10 @@ html {
 
 .gallery .pics{
   -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
+  transition: transform 350ms ease;
   cursor: pointer;
   margin-bottom: 8px;
+
   
 }
 .gallery .pics:hover{
