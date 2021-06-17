@@ -19,7 +19,9 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Welcome to my portfolio page!
-              
+              <br />
+              <br />
+              This multi-page web app was created using a React frontend and Node/Express backend. It serves responsive views and is currently hosted on Netlify.
               <br />
               <br />Put in front of a computer at an early age, 
               I developed a deep curiosity and yearning to learn and to create software.
