@@ -55,14 +55,17 @@ function Home2() {
               <i>
                 <b className="purple"> Music </b>
               </i>
-              and 
+              ,  
               <i>
                 <b className="purple"> Photography </b>
               </i>
+              , and
+              <i>
+                <b className="purple"> Gaming </b>
+              </i>
               enthusiast.
-              <br /> 
-              Check out my <a href = "/photoGallery">Gallery</a> page for a little snapshot
-              of what I've taken!
+              Check out my <a href = "/photoGallery">Gallery</a>  and <a href = "/Gaming">Gaming</a> pages to see little snapshot
+              of what I've taken and what I play!
             </p>
           </Col>
           <Col md={4} style={{paddingLeft: 80 }} className="myAvtar">

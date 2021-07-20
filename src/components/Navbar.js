@@ -13,6 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlinePicture,
 } from "react-icons/ai";
+import { GiConsoleController } from "react-icons/gi";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -92,6 +93,18 @@ function NavBar() {
 
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/Gaming"
+                onClick={() => updateExpanded(false)}
+              >
+                <GiConsoleController
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/yamjoshua"
@@ -102,6 +115,7 @@ function NavBar() {
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

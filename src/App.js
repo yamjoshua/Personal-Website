@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Gallery from "./components/photoGallery/photoGallery";
+import Gaming from "./components/Gaming/Game";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/project" component={Projects} />
           <Route path="/photogallery" component={Gallery} />
+          <Route path="/Gaming" component={Gaming} />
         </Switch>
         <Footer />
       </div>

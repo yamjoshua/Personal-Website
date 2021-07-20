@@ -12,6 +12,7 @@ html {
   );
 
   --imp-text-color: #c770f0;
+
 }
 
 .purple {
@@ -288,6 +289,7 @@ html {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  height: 100vh;
 }
 
 .home-content {
@@ -624,5 +626,93 @@ html {
   cursor: pointer;
 }
 
+
+/* --------- */
+/* Gaming    */
+/* --------- */
+.gaming-section {
+  position: relative !important;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.gaming {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.gaming-left {
+  padding-right: 80px !important;
+}
+
+.gaming-right {
+  padding-left: 80px !important;
+}
+
+@media (max-width: 767px) {
+  .gaming-left {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+
+  .gaming-right {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+.gaming .gaming-title {
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.gaming .gaming-item {
+  padding: 0 0 10px 25px;
+  margin-top: -2px;
+  border-left: 2px solid #8a49a8;
+  position: relative;
+  text-align: left;
+
+}
+
+.gaming .gaming-item .gaming-title {
+  line-height: 20px;
+  font-size: 1.3em;
+  background: #5234795d;
+  padding: 8px 10px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+
+.gaming .gaming-item ul {
+  padding-left: 5px;
+  text-align: justify;
+}
+
+.gaming .gaming-item ul li {
+  padding-bottom: 3px;
+  list-style: none;
+}
+
+.gaming .gaming-item:last-child {
+  padding-bottom: 0;
+}
+
+.gaming .gaming-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #8a49a8;
+}
 
 
