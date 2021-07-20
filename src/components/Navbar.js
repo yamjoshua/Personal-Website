@@ -72,6 +72,14 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
+               <Nav.Link
+                href={pdf}
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/photoGallery"
@@ -83,16 +91,6 @@ function NavBar() {
                 Gallery
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-               <Nav.Link
-                href={pdf}
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-
-            </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
