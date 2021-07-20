@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React  from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import axios from "axios";
-import { AiOutlineDownload } from "react-icons/ai";
 import GameContent from "./GameContent";
 
 
@@ -82,7 +79,7 @@ function Gaming() {
           </Col>
           <Col style={{paddingTop: "20px" }}>
             <h3 className="gaming-title">Come <span className="purple">Chat </span> With Me! 😊 </h3>
-            <iframe src="https://discord.com/widget?id=251150457551060993&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <iframe title="Discord Widget" src="https://discord.com/widget?id=251150457551060993&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
           </Col>
         </Row>
       </Container>
