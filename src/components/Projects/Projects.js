@@ -36,9 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={sodoku}
               isBlog={false}
-              title="Sodoku Solver"
-              description="Using BackTracking, Minimum Remaining Value, Degree Heuristic, and Forward Checking to solve any Sodoku puzzle. Made in part as a project for my Junior year Artificial Intelligence course. It is able to solve any easy, medium, hard, or expert level puzzle from sodoku.com in under one second. It is written in Python and works by reading in a txt file and outputting a txt file with the solved puzzle."
-              link="https://github.com/yamjoshua/Sodoku"
+              title="Sudoku Solver"
+              description="Using BackTracking, Minimum Remaining Value, Degree Heuristic, and Forward Checking to solve any Sudoku puzzle. Made in part as a project for my Junior year Artificial Intelligence course. It is able to solve any easy, medium, hard, or expert level puzzle from sodoku.com in under one second. It is written in Python and works by reading in a txt file and outputting a txt file with the solved puzzle."
+              link="https://github.com/yamjoshua/Sudoku"
             />
           </Col>
 
