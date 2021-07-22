@@ -1,9 +1,6 @@
 const express = require("express");
-const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const config = require("./config");
-const uri = config.getSecretToken();
 
 const app = express();
 const Port = process.env.PORT || 3600;
@@ -17,11 +14,3 @@ app.get("/", (req, res, next) => {
 });
 
 
-mongoose
-  .connect(uri)
-  .then(function () {
-    console.log("Moongose Connection Successful");
-  })
-  .catch(function (err) {
-    console.log(err);
-  });
