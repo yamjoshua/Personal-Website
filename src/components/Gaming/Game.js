@@ -21,14 +21,14 @@ function Gaming() {
               content={[
                 "Faceit Level: 10",
                 "ESEA Rank: A",
-                "Matchmaking Rank: LE",
+                "Matchmaking Rank: Global Elite",
                 "Collegiate D2 Player for NYU"
               ]}
             />
             <GameContent
               title="Valorant"
               content={[
-                "Competitive Rank: Diamond 1",
+                "Competitive Rank: Immortal",
                 "Jett Main"
               ]}
             />
